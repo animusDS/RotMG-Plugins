@@ -46,3 +46,4 @@ C:\Users\William\Desktop\KRelay-main\Plugins\AbilitySpam\obj\Debug\AbilitySpam.c
 C:\Users\William\Desktop\KRelay-main\Plugins\AbilitySpam\obj\Debug\AbilitySpam.csproj.CopyComplete
 C:\Users\William\Desktop\KRelay-main\Plugins\AbilitySpam\obj\Debug\AbilitySpam.dll
 C:\Users\William\Desktop\KRelay-main\Plugins\AbilitySpam\obj\Debug\AbilitySpam.pdb
+C:\Users\William\Desktop\KRelay-main\Plugins\AbilitySpam\obj\Debug\AbilitySpam.csprojAssemblyReference.cache

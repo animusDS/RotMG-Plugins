@@ -58,4 +58,3 @@ C:\Users\William\Desktop\KRelay-main\Plugins\ProjectileMod\obj\Debug\ProjectileM
 C:\Users\William\Desktop\KRelay-main\Plugins\ProjectileMod\obj\Debug\ProjectileMod.csproj.CopyComplete
 C:\Users\William\Desktop\KRelay-main\Plugins\ProjectileMod\obj\Debug\ProjectileMod.dll
 C:\Users\William\Desktop\KRelay-main\Plugins\ProjectileMod\obj\Debug\ProjectileMod.pdb
-C:\Users\William\Desktop\KRelay-main\Plugins\ProjectileMod\obj\Debug\ProjectileMod.csprojAssemblyReference.cache

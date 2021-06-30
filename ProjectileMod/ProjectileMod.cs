@@ -17,13 +17,14 @@ namespace ProjectileMod
 
         public string GetName()
         {
-            return "Projectile Mod";
+            return "Projectile Modifier";
         }
 
         public string GetDescription()
         {
-            return "Modifies your projectile's life time and speed multiplier." +
-                   "\n Projectile Effects only take place when you go to a new instance*.";
+            return "Modifies your projectile's life time and speed multiplier." + 
+                   "\nThis means you are multiplying." +
+                   "\nProjectile effects take place when you enter a new instance!";
         }
 
         public string[] GetCommands()
@@ -31,9 +32,18 @@ namespace ProjectileMod
             return new[]
             {
                 "/projectilemod",
-                "/pm"
+                "/projectilemod [on | off] - enable or disable the plugin",
+                "/projectilemod [speedmult | lifemult] [on | off] - enable or disable the modifier",
+                "/projectilemod [speedmult | lifemult] [amount] - set the value for the modifier",
+                
+                "\n Aliases:",
+                "[pmod | pm]",
+                "[smult | sm | speedmult]",
+                "[lmult | lm | lifemult]"
+                
             };
         }
+
 
         public void Initialize(Proxy proxy)
         {
@@ -41,6 +51,7 @@ namespace ProjectileMod
             proxy.HookPacket(PacketType.UPDATE, OnUpdate);
             proxy.HookCommand("projectilemod", OnCommand);
             proxy.HookCommand("pmod", OnCommand);
+            proxy.HookCommand("pm", OnCommand);
         }
 
         private void OnCommand(Client client, string command, string[] args)
@@ -57,10 +68,8 @@ namespace ProjectileMod
                     client.OryxMessage("You are currently modding Projectile Speed by a value of {0}x",
                         Config.Default.SpeedMultCount);
                 else if (Config.Default.LifeMultMod)
-                {
                     client.OryxMessage("You are currently modding Projectile Life by a value of {0}x",
                         Config.Default.LifeMultCount);
-                }
             }
             else
             {
@@ -69,13 +78,13 @@ namespace ProjectileMod
                     case "on":
                         Config.Default.Enabled = true;
                         Config.Default.Save();
-                        client.OryxMessage("Projectile Mod now enabled.");
+                        client.OryxMessage("Projectile Modifier now enabled.");
                         break;
 
                     case "off":
                         Config.Default.Enabled = false;
                         Config.Default.Save();
-                        client.OryxMessage("Projectile Mod now disabled.");
+                        client.OryxMessage("Projectile Modifier now disabled.");
                         break;
 
                     case "speedmult":
@@ -86,12 +95,12 @@ namespace ProjectileMod
                             case "on":
                                 Config.Default.SpeedMultMod = true;
                                 Config.Default.Save();
-                                client.OryxMessage("Speed Multiplier enabled.");
+                                client.OryxMessage("Speed modifier enabled.");
                                 break;
                             case "off":
                                 Config.Default.SpeedMultMod = false;
                                 Config.Default.Save();
-                                client.OryxMessage("Speed Multiplier disabled.");
+                                client.OryxMessage("Speed modifier disabled.");
                                 break;
                             default:
                                 if (double.TryParse(args[1], out var scount))
@@ -111,8 +120,8 @@ namespace ProjectileMod
                                 {
                                     client.OryxMessage("Unrecognized argument: {0}", args[0]);
                                     client.OryxMessage("Usage:");
-                                    client.OryxMessage("'/projectilemod speed on' - enable Speed modding");
-                                    client.OryxMessage("'/projectilemod speed off' - enable Speed modding");
+                                    client.OryxMessage("'/projectilemod speedmult [on | off]' - enable or disable speed modifier");
+                                    client.OryxMessage("'/projectilemod speedmult [amount]' - set the value for the speed modifier");
                                 }
 
                                 break;
@@ -146,15 +155,15 @@ namespace ProjectileMod
                                     {
                                         Config.Default.LifeMultCount = lcount;
                                         Config.Default.Save();
-                                        client.OryxMessage("Life Multiplier set to {0}x.", lcount);
+                                        client.OryxMessage("Life modifier set to {0}x.", lcount);
                                     }
                                 }
                                 else
                                 {
                                     client.OryxMessage("Unrecognized argument: {0}", args[0]);
                                     client.OryxMessage("Usage:");
-                                    client.OryxMessage("'/projectilemod lifemult on' - enable Life modding");
-                                    client.OryxMessage("'/projectilemod lifemult off' - enable Life modding");
+                                    client.OryxMessage("'/projectilemod lifemult [on | off]' - enable or disable life time modifier");
+                                    client.OryxMessage("'/projectilemod lifemult [amount]' - set the value for the life time modifier");
                                 }
 
                                 break;
@@ -164,12 +173,9 @@ namespace ProjectileMod
 
                     default:
                         client.OryxMessage("Usage:");
-                        client.OryxMessage("'/projectilemod on' - enable Projectile Mod");
-                        client.OryxMessage("'/projectilemod off' - disable Projectile Mod");
-                        client.OryxMessage("'/projectilemod speedmult on' - enable Speed Mod");
-                        client.OryxMessage("'/projectilemod lifemult off' - disable Life Mod");
-                        client.OryxMessage("'/projectilemode speedmult 2' - set Speed Multiplier to 2x");
-                        client.OryxMessage("'/projectilemode lifemult 2' - set Life Multiplier to 2x");
+                        client.OryxMessage("'/projectilemod [on | off]' - enable or disable Projectile Mod");
+                        client.OryxMessage("'/projectilemod [speedmult | lifemult] [on | off]' - enable Speed Mod");
+                        client.OryxMessage("'/projectilemod [speedmult | lifemult] [amount]' - set the value for the modifier");
                         break;
                 }
             }
@@ -194,10 +200,10 @@ namespace ProjectileMod
                     foreach (var data in en.Status.Data)
                         switch (data.StatId)
                         {
-                            case (int)Stats.ProjectileLifeMult:
+                            case (int) Stats.ProjectileLifeMult:
                                 data.IntValue = (int) (Config.Default.LifeMultCount * 1000);
                                 break;
-                            case (int)Stats.ProjectileSpeedMult:
+                            case (int) Stats.ProjectileSpeedMult:
                                 data.IntValue = (int) (Config.Default.SpeedMultCount * 1000);
                                 break;
                         }

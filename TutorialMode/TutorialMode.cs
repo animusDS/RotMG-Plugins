@@ -9,9 +9,6 @@ namespace TutorialMode
 {
     public class TutorialMode : IPlugin
     {
-        private ReconnectPacket _reconnect;
-        private HelloPacket _hello;
-
         public string GetAuthor()
         {
             return "Animus";
@@ -33,7 +30,7 @@ namespace TutorialMode
         {
             return new[]
             {
-                "/tutorialmode"
+                "/tutorialmode [on | off] - enables or disables tutorial mode"
             };
         }
 
@@ -72,15 +69,15 @@ namespace TutorialMode
         private void OnReconnect(Client client, Packet packet)
         {
             if (!Config.Default.Enabled) return;
-            _reconnect = (ReconnectPacket) packet;
-            _reconnect.GameId = -1;
+            var reconnect = (ReconnectPacket) packet;
+            reconnect.GameId = -1;
         }
 
         private void OnHello(Client client, Packet packet)
         {
             if (!Config.Default.Enabled) return;
-            _hello = (HelloPacket) packet;
-            _hello.GameId = -1;
+            var hello = (HelloPacket) packet;
+            hello.GameId = -1;
         }
     }
 }
