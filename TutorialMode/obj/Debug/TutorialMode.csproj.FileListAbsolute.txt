@@ -1,0 +1,29 @@
+C:\Users\William\Desktop\KRelay-Master\Plugins\TutorialMode\bin\Debug\Resources\Packets.xml
+C:\Users\William\Desktop\KRelay-Master\Plugins\TutorialMode\bin\Debug\Resources\Tiles.xml
+C:\Users\William\Desktop\KRelay-Master\Plugins\TutorialMode\bin\Debug\Resources\Objects.xml
+C:\Users\William\Desktop\KRelay-Master\Plugins\TutorialMode\bin\Debug\Resources\Servers.xml
+C:\Users\William\Desktop\KRelay-Master\Plugins\TutorialMode\bin\Debug\TutorialMode.dll
+C:\Users\William\Desktop\KRelay-Master\Plugins\TutorialMode\bin\Debug\TutorialMode.pdb
+C:\Users\William\Desktop\KRelay-Master\Plugins\TutorialMode\bin\Debug\Lib K Relay.dll
+C:\Users\William\Desktop\KRelay-Master\Plugins\TutorialMode\bin\Debug\Lib K Relay.pdb
+C:\Users\William\Desktop\KRelay-Master\K_Relay\bin\Debug\Plugins\Resources\Packets.xml
+C:\Users\William\Desktop\KRelay-Master\K_Relay\bin\Debug\Plugins\Resources\Tiles.xml
+C:\Users\William\Desktop\KRelay-Master\K_Relay\bin\Debug\Plugins\Resources\Objects.xml
+C:\Users\William\Desktop\KRelay-Master\K_Relay\bin\Debug\Plugins\Resources\Servers.xml
+C:\Users\William\Desktop\KRelay-Master\K_Relay\bin\Debug\Plugins\TutorialMode.dll
+C:\Users\William\Desktop\KRelay-Master\K_Relay\bin\Debug\Plugins\TutorialMode.pdb
+C:\Users\William\Desktop\KRelay-Master\Plugins\TutorialMode\obj\Debug\TutorialMode.csproj.CoreCompileInputs.cache
+C:\Users\William\Desktop\KRelay-Master\Plugins\TutorialMode\obj\Debug\TutorialMode.csproj.CopyComplete
+C:\Users\William\Desktop\KRelay-Master\Plugins\TutorialMode\obj\Debug\TutorialMode.dll
+C:\Users\William\Desktop\KRelay-Master\Plugins\TutorialMode\obj\Debug\TutorialMode.pdb
+C:\Users\William\Desktop\KRelay-main\K_Relay\bin\Debug\Plugins\Resources\Packets.xml
+C:\Users\William\Desktop\KRelay-main\K_Relay\bin\Debug\Plugins\Resources\Tiles.xml
+C:\Users\William\Desktop\KRelay-main\K_Relay\bin\Debug\Plugins\Resources\Objects.xml
+C:\Users\William\Desktop\KRelay-main\K_Relay\bin\Debug\Plugins\Resources\Servers.xml
+C:\Users\William\Desktop\KRelay-main\K_Relay\bin\Debug\Plugins\TutorialMode.dll
+C:\Users\William\Desktop\KRelay-main\K_Relay\bin\Debug\Plugins\TutorialMode.pdb
+C:\Users\William\Desktop\KRelay-main\Plugins\TutorialMode\obj\Debug\TutorialMode.csproj.CoreCompileInputs.cache
+C:\Users\William\Desktop\KRelay-main\Plugins\TutorialMode\obj\Debug\TutorialMode.csproj.CopyComplete
+C:\Users\William\Desktop\KRelay-main\Plugins\TutorialMode\obj\Debug\TutorialMode.dll
+C:\Users\William\Desktop\KRelay-main\Plugins\TutorialMode\obj\Debug\TutorialMode.pdb
+C:\Users\William\Desktop\KRelay-main\Plugins\TutorialMode\obj\Debug\TutorialMode.csprojAssemblyReference.cache

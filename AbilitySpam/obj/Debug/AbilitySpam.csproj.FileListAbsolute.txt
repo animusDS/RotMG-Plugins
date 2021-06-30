@@ -1,0 +1,48 @@
+C:\Users\William\Desktop\proxy\KRelay-master\Plugins\AbilitySpam\bin\Debug\Resources\Packets.xml
+C:\Users\William\Desktop\proxy\KRelay-master\Plugins\AbilitySpam\bin\Debug\Resources\Tiles.xml
+C:\Users\William\Desktop\proxy\KRelay-master\Plugins\AbilitySpam\bin\Debug\Resources\Objects.xml
+C:\Users\William\Desktop\proxy\KRelay-master\Plugins\AbilitySpam\bin\Debug\Resources\Servers.xml
+C:\Users\William\Desktop\proxy\KRelay-master\Plugins\AbilitySpam\bin\Debug\AbilitySpam.dll
+C:\Users\William\Desktop\proxy\KRelay-master\Plugins\AbilitySpam\bin\Debug\AbilitySpam.pdb
+C:\Users\William\Desktop\proxy\KRelay-master\Plugins\AbilitySpam\bin\Debug\Lib K Relay.dll
+C:\Users\William\Desktop\proxy\KRelay-master\Plugins\AbilitySpam\bin\Debug\Lib K Relay.pdb
+C:\Users\William\Desktop\proxy\KRelay-master\Plugins\AbilitySpam\obj\Debug\AbilitySpam.csprojAssemblyReference.cache
+C:\Users\William\Desktop\proxy\KRelay-master\Plugins\AbilitySpam\obj\Debug\AbilitySpam.csproj.CoreCompileInputs.cache
+C:\Users\William\Desktop\proxy\KRelay-master\Plugins\AbilitySpam\obj\Debug\AbilitySpam.csproj.CopyComplete
+C:\Users\William\Desktop\proxy\KRelay-master\Plugins\AbilitySpam\obj\Debug\AbilitySpam.dll
+C:\Users\William\Desktop\proxy\KRelay-master\Plugins\AbilitySpam\obj\Debug\AbilitySpam.pdb
+C:\Users\William\Desktop\proxy\KRelay-master\K_Relay\bin\Debug\Plugins\Resources\Packets.xml
+C:\Users\William\Desktop\proxy\KRelay-master\K_Relay\bin\Debug\Plugins\Resources\Tiles.xml
+C:\Users\William\Desktop\proxy\KRelay-master\K_Relay\bin\Debug\Plugins\Resources\Objects.xml
+C:\Users\William\Desktop\proxy\KRelay-master\K_Relay\bin\Debug\Plugins\Resources\Servers.xml
+C:\Users\William\Desktop\proxy\KRelay-master\K_Relay\bin\Debug\Plugins\AbilitySpam.dll
+C:\Users\William\Desktop\proxy\KRelay-master\K_Relay\bin\Debug\Plugins\AbilitySpam.pdb
+C:\Users\William\Desktop\KRelay-Master\Plugins\AbilitySpam\bin\Debug\Resources\Packets.xml
+C:\Users\William\Desktop\KRelay-Master\Plugins\AbilitySpam\bin\Debug\Resources\Tiles.xml
+C:\Users\William\Desktop\KRelay-Master\Plugins\AbilitySpam\bin\Debug\Resources\Objects.xml
+C:\Users\William\Desktop\KRelay-Master\Plugins\AbilitySpam\bin\Debug\Resources\Servers.xml
+C:\Users\William\Desktop\KRelay-Master\Plugins\AbilitySpam\bin\Debug\AbilitySpam.dll
+C:\Users\William\Desktop\KRelay-Master\Plugins\AbilitySpam\bin\Debug\AbilitySpam.pdb
+C:\Users\William\Desktop\KRelay-Master\Plugins\AbilitySpam\bin\Debug\Lib K Relay.dll
+C:\Users\William\Desktop\KRelay-Master\Plugins\AbilitySpam\bin\Debug\Lib K Relay.pdb
+C:\Users\William\Desktop\KRelay-Master\K_Relay\bin\Debug\Plugins\Resources\Packets.xml
+C:\Users\William\Desktop\KRelay-Master\K_Relay\bin\Debug\Plugins\Resources\Tiles.xml
+C:\Users\William\Desktop\KRelay-Master\K_Relay\bin\Debug\Plugins\Resources\Objects.xml
+C:\Users\William\Desktop\KRelay-Master\K_Relay\bin\Debug\Plugins\Resources\Servers.xml
+C:\Users\William\Desktop\KRelay-Master\K_Relay\bin\Debug\Plugins\AbilitySpam.dll
+C:\Users\William\Desktop\KRelay-Master\K_Relay\bin\Debug\Plugins\AbilitySpam.pdb
+C:\Users\William\Desktop\KRelay-Master\Plugins\AbilitySpam\obj\Debug\AbilitySpam.csproj.CoreCompileInputs.cache
+C:\Users\William\Desktop\KRelay-Master\Plugins\AbilitySpam\obj\Debug\AbilitySpam.csproj.CopyComplete
+C:\Users\William\Desktop\KRelay-Master\Plugins\AbilitySpam\obj\Debug\AbilitySpam.dll
+C:\Users\William\Desktop\KRelay-Master\Plugins\AbilitySpam\obj\Debug\AbilitySpam.pdb
+C:\Users\William\Desktop\KRelay-Master\Plugins\AbilitySpam\obj\Debug\AbilitySpam.csprojAssemblyReference.cache
+C:\Users\William\Desktop\KRelay-main\K_Relay\bin\Debug\Plugins\Resources\Packets.xml
+C:\Users\William\Desktop\KRelay-main\K_Relay\bin\Debug\Plugins\Resources\Tiles.xml
+C:\Users\William\Desktop\KRelay-main\K_Relay\bin\Debug\Plugins\Resources\Objects.xml
+C:\Users\William\Desktop\KRelay-main\K_Relay\bin\Debug\Plugins\Resources\Servers.xml
+C:\Users\William\Desktop\KRelay-main\K_Relay\bin\Debug\Plugins\AbilitySpam.dll
+C:\Users\William\Desktop\KRelay-main\K_Relay\bin\Debug\Plugins\AbilitySpam.pdb
+C:\Users\William\Desktop\KRelay-main\Plugins\AbilitySpam\obj\Debug\AbilitySpam.csproj.CoreCompileInputs.cache
+C:\Users\William\Desktop\KRelay-main\Plugins\AbilitySpam\obj\Debug\AbilitySpam.csproj.CopyComplete
+C:\Users\William\Desktop\KRelay-main\Plugins\AbilitySpam\obj\Debug\AbilitySpam.dll
+C:\Users\William\Desktop\KRelay-main\Plugins\AbilitySpam\obj\Debug\AbilitySpam.pdb
