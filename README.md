@@ -1,2 +1,2 @@
-# krelay-plugins
-Selfcoded KRelay Plugin Repo
+# RotMG-Plugins
+Various Selfcoded RotMG plugins
